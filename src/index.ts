@@ -16,5 +16,4 @@ function renderList() {
   list.forEach((item: ListItem)=> {
     result = `${result} <li>${item.text} - ${item.date}</li>`;
   });
-  listElement.innerHTML = result;
 }
