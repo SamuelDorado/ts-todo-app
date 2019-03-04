@@ -1,0 +1,17 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+      "tslint:recommended",
+      "tslint-config-prettier"
+    ],
+    "rulesDirectory": ["tslint-plugin-prettier"],
+    "rules": {
+      "prettier": true,
+      "no-any": false,
+      "interface-name": [true, "never-prefix"],
+      "variable-name": [true, "allow-pascal-case"],
+      "import-name": false,
+      "ordered-imports": false,
+      "no-boolean-literal-compare": false
+    }
+}
